@@ -68,9 +68,7 @@ On the holdout window (last 6 months of the simulated data), the model
 gets a WAPE of about 0.25, meaning forecasts are off by roughly a quarter of
 total volume on average. That's in a reasonable range for daily-level SKU
 forecasting with promotion noise baked in. The forecast tracks the
-underlying trend and seasonality well; day-to-day spikes (especially promo
-days) are where most of the remaining error sits, which is a realistic
-limitation and worth mentioning if asked about it in an interview.
+underlying trend and seasonality well; day-to-day spikes (especially promo days) are where most of the remaining error sits. A more advanced version of this project could add explicit promo-flag interactions or a separate spike-detection step to close that gap.
 
 ## What's simplified
 
