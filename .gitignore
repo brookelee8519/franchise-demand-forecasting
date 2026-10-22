@@ -1,0 +1,10 @@
+data/daily_demand.csv
+data/forecast_results.csv
+data/inventory_recommendations.csv
+data/residual_std.csv
+data/model.joblib
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
