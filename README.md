@@ -5,6 +5,8 @@ that's common for distributors supplying multiple franchise or retail
 locations: each store orders on its own schedule, and the SCM team needs a
 way to predict demand and flag stock before it runs out or piles up.
 
+![Forecast and safety stock preview](data/preview.png)
+
 ## The scenario
 
 A distributor supplies 8 store locations with 12 SKUs (a mix of frozen,
