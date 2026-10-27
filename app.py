@@ -95,5 +95,6 @@ with tab2:
 
     st.subheader("Highest safety-stock items")
     st.caption("These are the items with the most volatile/uncertain demand.")
-    top = rec.sort_values("safety_stock", ascending=False).head(10)
-    st.bar_chart(top.set_index("sku_id")["safety_stock"])
+    top = rec.sort_values("safety_stock", ascending=False).head(10).copy()
+    top["item"] = top["store"] + " / " + top["sku_id"]
+    st.bar_chart(top.set_index("item")["safety_stock"])
